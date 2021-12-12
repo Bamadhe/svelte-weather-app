@@ -37,6 +37,10 @@
 	  text-align: center;
 	}
 
+	.title {
+	  text-align: center;
+	}
+
 	button {
 	  background-color: #f6d55c;
 	}
@@ -49,14 +53,23 @@
 	  width: 50%;
 	  text-align: left;
 	  margin-left: 25%;
+	  border-style: ridge;
+	  border-color: #f6d55c;
+	}
+	
+	img {
+  	  border: 3px solid #f6d55c;
 	}
   
   </style>
+
+	<div class="title">
   
-  <div class="main">
-  
-  
-	<h1>Weather App</h1>
+  		<img src="/title.png" alt="NoPictureToShow" />
+
+	</div>
+
+  	<div class="main">
   
 	<input bind:value={city_name}  placeholder="Enter a city name in English">
 	
