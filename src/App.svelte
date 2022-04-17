@@ -28,8 +28,7 @@
 	}
   }
   
-  </script>
-  
+</script>
   
   <style>
 
@@ -64,22 +63,16 @@
   </style>
 
 	<div class="title">
-  
   		<img src="/title.png" alt="NoPictureToShow" />
-
 	</div>
 
   	<div class="main">
-  
 	<input bind:value={city_name}  placeholder="Enter a city name in English">
-	
 	<button on:click={loadData}>Check Weather</button>
   
 	{#if receivedData != null}
 	  <div class="data">
-  
 		<div class="list">
-  
 		  <table style="width:100%">
 		  <tr>
 			<td>Temperature:</td>
@@ -100,12 +93,8 @@
 			<td><span>{wind_speed}km/h</span></td>
 		  </tr>
 		  </table>
-  
 		</div>
-  
 		<img src={map} alt="NoPictureToShow" />
 	  </div>
 	{/if}
-  
   </div>
-  
